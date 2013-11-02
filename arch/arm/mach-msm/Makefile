@@ -424,3 +424,5 @@ obj-$(CONFIG_PERFMAP) += perfmap.o
 
 obj-$(CONFIG_FORCE_FAST_CHARGE) += fastchg.o
 obj-$(CONFIG_LCD_KCAL) += msm_kcal_ctrl.o
+obj-$(CONFIG_MSM_CPUFREQ_LIMITER) += cpufreq_limit.o
+
