@@ -309,7 +309,7 @@ static int __devinit kcal_ctrl_probe(struct platform_device *pdev)
 
 	lut_data->red = lut_data->green = lut_data->blue = NUM_QLUT;
 	lut_data->minimum = 35;
-	lut_data->enable = 1;
+	lut_data->enable = 0;
 	lut_data->invert = 0;
 	lut_data->sat = DEF_PA;
 	lut_data->hue = 0;
